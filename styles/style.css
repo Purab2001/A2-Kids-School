@@ -115,6 +115,7 @@ button:hover{
     }
     .banner{
         flex-direction: column-reverse;
+        margin: auto 16px;
     }
     .banner-content{
         text-align: center;
