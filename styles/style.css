@@ -40,6 +40,9 @@ button:hover{
     width: 62px;
     height: 62px;
 }
+.menu-icon{
+    display: none;
+}
 .nav-title{
     font-weight: bold;
     font-size: 2rem;
@@ -92,6 +95,9 @@ button:hover{
 .banner-photo{
     margin-right: 140px;
 }
+.banner-photo img{
+    width: 100%;
+}
 
 
 /* Mobile Media Query */
@@ -101,8 +107,11 @@ button:hover{
         margin: 0 auto;
         padding: 10px 20px;
     }
-    .nav-title, .nav-links, button, br{
+    .nav-title, .nav-links, .btn-primary, br{
         display: none;
+    }
+    .menu-icon{
+        display: block;
     }
     .banner{
         flex-direction: column-reverse;
