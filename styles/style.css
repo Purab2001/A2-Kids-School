@@ -72,7 +72,15 @@ button:hover{
     border-radius: 12px;
     padding: 10px 60px;
 }
-
+/* Marquee Styles */
+.marquee-container{
+    font-weight: bold;
+    font-size: 1rem;
+    border: 2px solid grey;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    margin-top: 10px;
+}
 /* Banner Styles */
 .banner{
     display: flex;
@@ -99,9 +107,99 @@ button:hover{
     width: 100%;
 }
 
+/* Curriculum Styles */
+.curriculum{
+    background-image: url(../B11-A2-Kids-School/assets/bg.png);
+    margin-top: 80px;
+}
+.curriculum-title{
+    font-weight: bold;
+    font-size: 2.8rem;
+    text-align: center;
+    margin-bottom: 80px;
+}
+.curriculum-cards{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    gap: 28px;
+    margin-left: 140px;
+    margin-right: 140px;
+    margin-bottom: 80px;
+}
+.card-img{
+    width: 138px;
+    height: 126px;
+}
+.card-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 367px;
+    height: 476px;
+    border-radius: 18px;
+    background: linear-gradient(to bottom, #DEF5FF, #ffffff);
+    border: 2px solid #DEF5FF;
+}
+.card-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 367px;
+    height: 476px;
+    border-radius: 18px;
+    background: linear-gradient(to bottom, #FFF4DC, #ffffff);
+    border: 2px solid #FFF4DC;
+}
+.card-3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 367px;
+    height: 476px;
+    border-radius: 18px;
+    background: linear-gradient(to bottom, #F2E8FF, #ffffff);
+    border: 2px solid #F2E8FF;
+}
+.card-title{
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+.curriculum-description{
+    font-weight: 500;
+    font-size: 0.9rem;
+    color: #808080;
+    margin: 33px 40px;
+}
+.read-more{
+    font-weight: bold;
+    font-size: 0.9rem;
+    text-decoration: none;
+}
+.color-5{
+    color: #8700FF;
+}
+.arrow{
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+}
+.btn-arrow{
+    background-color: orange;
+    border: none;
+    border-radius: 30px;
+    padding: 20px;
+}
 
 /* Mobile Media Query */
 @media screen and (max-width:576px) {
+    /* Navbar Styles */
     .navbar{
         border-bottom: 1px solid orange;
         margin: 0 auto;
@@ -113,9 +211,17 @@ button:hover{
     .menu-icon{
         display: block;
     }
+    /* Banner Styles */
     .banner{
         flex-direction: column-reverse;
         margin: auto 16px;
+    }
+    .banner-title{
+        font-size: 2rem;
+    }
+    .banner-description{
+        font-weight: 500;
+        font-size: 1.2rem;
     }
     .banner-content{
         text-align: center;
@@ -123,5 +229,16 @@ button:hover{
     }
     .banner-photo{
         width: 100%;
+    }
+    /* Curriculum Styles */
+    .curriculum-title{
+        font-size: 1.6rem;
+        margin-bottom: 20px;
+    }
+    .curriculum-cards{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .arrow{
+        display: none;
     }
 }
