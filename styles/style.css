@@ -216,6 +216,8 @@ button:hover{
     margin-top: 60px;
 }
 .stories-card{
+    display: flex;
+    flex-direction: column;
     background-color: white;
     width: 540px;
     height: 630px;
@@ -225,8 +227,10 @@ button:hover{
     border-radius: 17px 17px 0 0;
 }
 .stories-btn-primary{
+    width: 175px;
+    height: 48px;
     font-weight: 500;
-    font-size: 1rem;
+    font-size: 0.9rem;
     color: white;
     background-color: #3CD8E8;
     border: none;
@@ -338,6 +342,9 @@ button:hover{
         grid-template-columns: repeat(1, 1fr);
         align-items: center;
     }
+    .card-1, .card-2, .card-3{
+        width: 357px;
+    }
     .arrow{
         display: none;
     }
@@ -351,6 +358,8 @@ button:hover{
     .story-cards{
         grid-template-columns: repeat(2, 1fr);
         gap: 11px;
+        margin-left: 16px;
+        margin-right: 16px;
     }
     .stories-cards{
         width: 173px;
