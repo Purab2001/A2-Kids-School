@@ -337,12 +337,27 @@ button:hover{
         font-size: 1.6rem;
         margin-bottom: 20px;
     }
+    .card-img{
+        width: 92.6px;
+        height: 92.6px;
+    }
+    .card-title{
+        font-size: 1rem;
+    }
+    .curriculum-description{
+        font-size: 0.6rem;
+        margin: 22px 80px;
+    }
+    .read-more{
+        font-size: 0.6rem;
+    }
     .curriculum-cards{
         flex-direction: column;
         align-items: center;
     }
     .card-1, .card-2, .card-3{
         width: 357px;
+        height: 324px;
     }
     .arrow{
         display: none;
