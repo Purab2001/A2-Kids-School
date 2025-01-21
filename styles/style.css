@@ -28,6 +28,9 @@ button:hover{
     font-weight: bold;
     font-size: 1.25rem;
 }
+.display-flex{
+    display: flex;
+}
 
 /* Navbar Styles */
 .navbar{
@@ -302,6 +305,69 @@ button:hover{
 }
 .btn-third{
     text-align: center;
+}
+
+/* Footer Styles */
+.footer{
+    background-color: #01ACFD;
+    justify-content: space-between;
+}
+.footer-1{
+    margin-top: 124px;
+    margin-bottom: 124px;
+    margin-left: 147px;
+}
+.footer-logo-container{
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 0px;
+}
+.footer-logo{
+    width: 80px;
+    height: 80px;
+}
+.footer-title{
+    font-weight: bold;
+    font-size: 2.6rem;
+    color: white;
+}
+.footer-description{
+    color: white;
+    font-weight: 400;
+    font-size: 1.25rem;
+    width: 399px;
+    height: 100px;
+    margin-top: 0px;
+}
+.footer-2{
+    margin-top: 124px;
+}
+.footer-title-2{
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: white;
+}
+.footer-links{
+    list-style: none;
+    padding-left: 0;
+}
+.footer-link{
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    font-size: 1.25rem;
+}
+.footer-links li{
+    margin-bottom: 20px;
+}
+.keep-in-touch{
+    margin-top: 124px;
+    margin-right: 147px;
+}
+.footer-title-3{
+    font-weight: bold;
+    font-size: 1.6rem;
+    color: white;
 }
 
 /* Mobile Media Query */
