@@ -336,8 +336,7 @@ button:hover{
     }
     .curriculum-cards{
         grid-template-columns: repeat(1, 1fr);
-        margin-right: 16px;
-        margin-left: 16px;
+        align-items: center;
     }
     .arrow{
         display: none;
@@ -351,6 +350,7 @@ button:hover{
     }
     .story-cards{
         grid-template-columns: repeat(2, 1fr);
+        gap: 11px;
     }
     .stories-cards{
         width: 173px;
