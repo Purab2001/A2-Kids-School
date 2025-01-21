@@ -5,6 +5,10 @@
     font-optical-sizing: auto;
     font-style: normal;
 }
+body{
+    margin: 0;
+    padding: 0;
+}
 /* Shared Styles */
 button:hover{
     cursor: pointer;
@@ -122,6 +126,7 @@ button:hover{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     justify-content: center;
+    align-items: center;
     gap: 28px;
     margin-left: 140px;
     margin-right: 140px;
@@ -197,6 +202,100 @@ button:hover{
     padding: 20px;
 }
 
+/* Stories Styles */
+.Stories {
+    background-image: linear-gradient(to top, #fcda9f, #ffffff), url(../B11-A2-Kids-School/assets/bg.png);
+    background-blend-mode: overlay;
+    background-size: cover;
+    margin-bottom: 60px;
+}
+.section-title{
+    font-weight: bold;
+    font-size: 2.8rem;
+    text-align: center;
+    margin-top: 60px;
+}
+.stories-card{
+    background-color: white;
+    width: 540px;
+    height: 630px;
+    border-radius: 17px;
+}
+.stories-card img{
+    border-radius: 17px 17px 0 0;
+}
+.stories-btn-primary{
+    font-weight: 500;
+    font-size: 1rem;
+    color: white;
+    background-color: #3CD8E8;
+    border: none;
+    border-radius: 47px;
+    padding: 14px 18px;
+    margin-left: 38px;
+    margin-top: -25px;
+}
+#stories-title{
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin-left: 38px;
+    margin-right: 38px;
+}
+#stories-description{
+    font-weight: 500;
+    font-size: 1rem;
+    color: #666666;
+    margin-left: 38px;
+    margin-right: 38px;
+}
+.too-many-cards{
+    display: flex;
+    gap: 18px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 80px;
+}
+.story-cards{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 18px;
+}
+.stories-cards{
+    background-color: white;
+    width: 290px;
+    height: 300px;
+    border-radius: 16px;
+}
+.stories-cards img{
+    border-radius: 16px 16px 0 0;
+}
+.stories-btn{
+    font-weight: 500;
+    font-size: 0.9rem;
+    color: white;
+    background-color: #95B226;
+    border: none;
+    border-radius: 48px;
+    padding: 10px 19px;
+    margin-left: 38px;
+    margin-top: -25px;
+}
+.stories-cards .stories-btn{
+    position: absolute;
+}
+.stories-title{
+    font-weight: bold;
+    font-size: 0.9rem;
+    margin-left: 35px;
+    margin-right: 35px;
+}
+.color-6{
+    background-color: #5D58F0;
+}
+.btn-third{
+    text-align: center;
+}
+
 /* Mobile Media Query */
 @media screen and (max-width:576px) {
     /* Navbar Styles */
@@ -237,9 +336,47 @@ button:hover{
     }
     .curriculum-cards{
         grid-template-columns: repeat(1, 1fr);
-        margin: auto 17px;
+        margin-right: 16px;
+        margin-left: 16px;
     }
     .arrow{
         display: none;
+    }
+    /* Stories */
+    .section-title{
+        font-size: 1.6rem;
+    }
+    .stories-card{
+        display: none;
+    }
+    .story-cards{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .stories-cards{
+        width: 173px;
+        height: 180px;
+        display: flex;
+        flex-direction: column;
+    }
+    .stories-cards img{
+        width: 173px;
+        height: 105px;
+    }
+    .stories-title{
+        font-size: 0.55rem;
+        width: 127px;
+        height: 34px;
+        margin-left: 22px;
+    }
+    .stories-btn{
+        font-size: 0.55rem;
+        width: 104px;
+        height: 22px;
+        margin-top: -10px;
+        margin-left: 22px;
+        padding: 6px 11px;
+    }
+    .stories-cards .stories-btn{
+        position: relative;
     }
 }
