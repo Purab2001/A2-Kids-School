@@ -310,8 +310,14 @@ button:hover{
     .nav-title, .nav-links, .btn-primary, br{
         display: none;
     }
+    #logo-img{
+        width: 42px;
+        height: 42px;
+    }
     .menu-icon{
         display: block;
+        width: 30px;
+        height: 30px;
     }
     /* Banner Styles */
     .banner{
@@ -360,7 +366,7 @@ button:hover{
         align-items: center;
     }
     .card-1, .card-2, .card-3{
-        width: 357px;
+        width: 330px;
         height: 324px;
     }
     .arrow{
@@ -380,13 +386,13 @@ button:hover{
         margin-right: 16px;
     }
     .stories-cards{
-        width: 173px;
+        width: 165px;
         height: 180px;
         display: flex;
         flex-direction: column;
     }
     .stories-cards img{
-        width: 173px;
+        width: 165px;
         height: 105px;
     }
     .stories-title{
