@@ -115,6 +115,9 @@ button:hover{
 .curriculum{
     background-image: url(../B11-A2-Kids-School/assets/bg.png);
     margin-top: 80px;
+    background-position: center;
+    background-size: cover;
+    width: auto;
 }
 .curriculum-title{
     font-weight: bold;
@@ -206,7 +209,9 @@ button:hover{
     background-image: linear-gradient(to top, #fcda9f, #ffffff), url(../B11-A2-Kids-School/assets/bg.png);
     background-blend-mode: overlay;
     background-size: cover;
-    margin-bottom: 60px;
+    background-position: center;
+    width: auto;
+    padding-bottom: 60px;
 }
 .section-title{
     font-weight: bold;
@@ -301,6 +306,9 @@ button:hover{
 
 /* Mobile Media Query */
 @media screen and (max-width:576px) {
+    .btn-secondary{
+        font-size: 1rem;
+    }
     /* Navbar Styles */
     .navbar{
         border-bottom: 1px solid orange;
@@ -344,7 +352,7 @@ button:hover{
         align-items: center;
         margin-left: 16px;
         margin-right: 16px;
-        gap: 16px;
+        gap: 11px;
     }
     .curriculum-title{
         font-size: 1.6rem;
