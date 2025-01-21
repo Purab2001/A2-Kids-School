@@ -333,6 +333,10 @@ button:hover{
         width: 100%;
     }
     /* Curriculum Styles */
+    .curriculum-cards{
+        margin-left: 16px;
+        margin-right: 16px;
+    }
     .curriculum-title{
         font-size: 1.6rem;
         margin-bottom: 20px;
@@ -346,7 +350,7 @@ button:hover{
     }
     .curriculum-description{
         font-size: 0.6rem;
-        margin: 22px 80px;
+        margin: 22px 70px;
     }
     .read-more{
         font-size: 0.6rem;
