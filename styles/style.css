@@ -485,4 +485,63 @@ button:hover{
     .stories-cards .stories-btn{
         position: relative;
     }
+
+    /* footer styles */
+    .footer{
+        flex-direction: column;
+    }
+    .footer-1{
+        margin-top: 65px;
+        margin-left: 16px;
+        margin-bottom: 32px;
+    }
+    .footer-logo-container{
+        width: 250px;
+        height: 69px;
+        margin-bottom: 22px;
+    }
+    .footer-logo{
+        width: 59px;
+        height: 69px;
+    }
+    .footer-title{
+        font-size: 2.1rem;
+    }
+    .footer-description{
+        font-size: 1rem;
+        width: 357px;
+        height: 80px;
+    }
+    .footer-2{
+        margin-top: 0;
+        margin-left: 16px;
+        width: 129px;
+        height: 188px;
+    }
+    .footer-title-2{
+        font-weight: 600;
+        font-size: 1.25rem;
+    }
+    .footer-link{
+        font-size: 1rem;
+    }
+    .footer-links li{
+        margin-bottom: 17px;
+    }
+    .keep-in-touch{
+        margin-top: 32px;
+        margin-left: 16px;
+    }
+    .footer-title-3{
+        font-size: 1.38rem;
+        margin-bottom: 12px;
+    }
+    .footer-img{
+        width: 161px;
+        height: 34px;
+    }
+    .footer-img img{
+        width: 17px;
+        height: 17px;
+    }
 }
